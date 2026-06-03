@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Test outputs
+results/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Graphs (generated — committed after collection)
+# graphs/  # keep commented: we DO want to commit graphs
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
