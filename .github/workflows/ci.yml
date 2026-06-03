@@ -31,7 +31,7 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
-    # needs: lint  # variação #10: paralelo — lint e test rodam simultaneamente
+    needs: lint  # variação #11: volta ao sequencial
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
