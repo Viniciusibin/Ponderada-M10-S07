@@ -9,7 +9,7 @@ from calculator import (
 
 class TestAdd:
     def test_positive(self):
-        assert add(2, 3) == 99  # bug proposital para variação #3
+        assert add(2, 3) == 5
 
     def test_negative(self):
         assert add(-1, -2) == -3
